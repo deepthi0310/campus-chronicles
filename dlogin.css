@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.background {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: url("https://images.unsplash.com/photo-1509212477832-378cd31ccf8d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDE3fHx8ZW58MHx8fHx8&w=1000&q=80") center/cover no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    max-width: 430px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    background: #fff;
+    border: 2px solid rgb(2, 2, 90);
+}
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+form {
+    margin-top: 30px;
+}
+.form .field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.field input,
+.field button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.field input {
+    outline: none;
+    padding: 0 15px;
+    border: 2px solid #cacaca;
+}
+.field input:focus{
+    border-bottom-width: 4px;
+}
+.field button {
+    color: #fff;
+    background-color: #656566;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.field button:hover{
+    background-color: #37c1dc;
+}
+.form-link {
+    text-align: center;
+    margin-top: 10px;
+}
+.form-link span,
+.form-link a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+.form a{
+    text-decoration: none;
+    color: #0171d3;
+}
+.form-content a:hover{
+    text-decoration: underline;
+}
+.line {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+.line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: #232836;
+    padding: 0 15px;
+}
+.media-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.facebook {
+    color: #fff;
+    background-color: #4267b2;
+}
+a.facebook {
+    height: 14px;
+    width: 14px;
+    color: #0171d3;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #cacaca;
+}
+
+img.google-img {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+img.google-img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+
+a.google{
+    border: 1px solid #cacaca;
+}
+a.google span{
+    font-weight: 500;
+    font-size: medium;
+    opacity: 0.6;
+    color: #232836;
+}
+
+
+.password-input {
+    width: calc(100% - 24px);
+    padding-right: 30px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    width: 20px;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq5YzOIncsMJVOHXIKusIelk_fF3woQcH8VA&usqp=CAU') center/contain no-repeat;
+ }
+
+.password-input.hide-password + .toggle-password {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb-QHHsEg3RfAQ0H-2wGsbN38KAmx8-R5gWA&usqp=CAU') center/contain no-repeat;
+}
+
+body{
+    background: beige;
+}
+
+h1{
+    text-align: center;
+}
+.forms {
+    max-width: 400px;
+    margin: auto;
+    background: black;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 100px;
+}
+
+.signup-heading{
+    text-align: center;
+}
+
+.form-group {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+input {
+    width: 228px;
+    height: 29px;
+    padding: 5px;
+}
+
+.logo{
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+label{
+    display: block;
+    margin: 5px;
+    font-size: 16px;
+}
+
+button {
+    background: beige;
+    border: none;
+    color: #000;
+    padding: 6px 23px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-group {
+    text-align: center;
+    margin-top: 20px;
+}
+body {
+    background-image: url('https://img.collegepravesh.com/2021/06/GRIET-Hyderabad.jpg');
+     background-size: cover; 
+    /*background-position: center;*/
+    background-repeat: no-repeat;  
+}
+
+.forms {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.signup-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.btn-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-group button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-group button:hover {
+    background-color: #0056b3;
+}
+/* dlogin.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100%;
+    width: 100%;
+}
+
+.forms {
+    background-color: #000000;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-heading {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.btn-group {
+    text-align: center;
+}
+
+.btn-group button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-group button:hover {
+    background-color: #0056b3;
+}

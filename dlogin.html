@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="dlogin.css">
+    <script>
+        function goToPage() {
+            var email = document.getElementById('useremail').value;
+            var password = document.getElementById('userpass').value;
+            if (email === '' || password === '') {
+                alert('Please enter both email and password.');
+                return false;
+            }
+            window.location.href = 'delhi.html';
+        }
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="forms">
+            <h2 class="signup-heading">Login Form</h2>
+            <form>
+                <div class="form-group">
+                    <label for="useremail">Email </label>
+                    <input type="text" name="email" id="useremail" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="userpass">Password </label>
+                    <input type="password" name="password" id="userpass" placeholder="Enter password">
+                </div>
+            </form>
+            <div class="btn-group">
+                <button type="button" onclick="goToPage()">Login</button>
+            </div>
+        </div>
+    </div>
+    <script src="delhi.js"></script>
+</body>
+
+</html>

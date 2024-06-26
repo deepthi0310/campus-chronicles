@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-heading {
+    font-family: "Roboto";
+}
+
+.center {
+    text-align: center;
+    padding: 2px;
+}
+
+.fontmain {
+    font-size: 75px;
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: 0 00 40px #00fffb, 0 0 40px #0081bc;
+}
+
+.red {
+    color: red;
+    font-size: 20px;
+}
+
+.black {
+    color: black;
+    font-size: 18px;
+
+}
+.sub-head{
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 25px;
+    color: lightblue;
+}
+.matter{
+    color:white;
+    font-size: 20px;
+    font-family: "Roboto";
+    padding-left:50px;
+}
+
+.fontsize {
+    font-size: 24px;
+    padding: 2px;
+}
+
+.backcard {
+    margin: 180px;
+    background: linear-gradient(lightblue, pink);
+
+    text-align: center;
+    height: 280px;
+    width: 280px;
+    padding: 5px;
+    border-radius: 80px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: lightblue;
+    box-shadow: 0 00 15px #00fffb, 0 0 20px #0081bc;
+}
+
+.button {
+
+    padding: 2px;
+    border-radius: 10px;
+    border-style: double;
+    height: 40px;
+    width: 50px;
+    border-width: 2px;
+    border-color: red;
+    background-color: lightblue;
+    font-style: italic;
+    font-size: 15px;
+
+}
+
+.buttons:hover {
+    box-shadow: 0px 0px 15px red,
+        0px 0px 30px red,
+        0px 0px 90px red;
+}
+
+.boxs {
+    animation: slideIn 2s infinite;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    50% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.background {
+    background-image: url("https://img.freepik.com/premium-vector/smiling-chef-cartoon-character_8250-10.jpg?w=740");
+    height: 100vh;
+    padding: 20px;
+    width: 100vh;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.back {
+    background-image: url("https://as2.ftcdn.net/v2/jpg/04/27/50/05/1000_F_427500564_Cmpdbd0LjsO2P6PxdqgRoikh3ZfFXtoa.jpg");
+
+    background-size: cover;
+}
+
+.headings {
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+    padding: 24px;
+    margin: 10px;
+}
+
+.cards {
+    background-color: lightpink;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 15px;
+}
+
+.card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.desc {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.card-image {
+    width: 90px;
+    height: 100px;
+}
+
+.backgrounds {
+    background-color: lightpink;
+
+    background-size: cover;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration-color: blue;
+    text-decoration: underline;
+}
+.height{
+    height: 50vh;
+}
+.im {
+    width: 100vh;
+    height: 75vh;
+    object-fit: cover;
+  }
+
+.card {
+    margin: 40px;
+    padding: 10px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.card-headingg {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.center {
+    text-align: center;
+}
+
+.buttonss {
+    text-align: center;
+    border-radius: 5px;
+    border-style: double;
+    border-width: 2px;
+    border-color: red;
+    color: white;
+    background-color: black;
+
+}
+
+.butt {
+    padding: 5px;
+    margin: 8px;
+}
+
+
+
+
+.bc {
+    background-image: url("https://img.freepik.com/premium-photo/cooking-background-set-black-tableware-items-forks-knife-spoons-with-fresh-herbs-basil-arugula-tomatoes-garlic-spices-black-stone-table-top-view-copy-space-vertical_136595-9961.jpg?size=626&ext=jpg&ga=GA1.2.1024532145.1705421550&semt=ais");
+    background-size: cover;
+    height: 100vh;
+}
+
+.size {
+    font-size: 18px;
+    padding: 5px;
+    font-family: "Roboto";
+    margin: 2px;
+}
+
+.car {
+    background-color: #000000e6;
+    color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.billing {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Bree Serif";
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.p {
+    padding: 5px;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.bu {
+    height: 40px;
+    font-family: "Roboto";
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.b {
+    background-image: url("https://img.freepik.com/free-photo/flat-lay-frame-with-grains-stucco-background_23-2148287506.jpg?size=626&ext=jpg&ga=GA1.1.1024532145.1705421550&semt=ais");
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.si {
+    font-size: 18px;
+    padding: 5px;
+    font-family: "Roboto";
+    margin: 2px;
+}
+
+.ca {
+    background-color: #000000e6;
+    color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.bi {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Bree Serif";
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.p {
+    padding: 5px;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.bw {
+    height: 40px;
+    font-family: "Roboto";
+    border-radius: 10px;
+    text-align: center;
+}
